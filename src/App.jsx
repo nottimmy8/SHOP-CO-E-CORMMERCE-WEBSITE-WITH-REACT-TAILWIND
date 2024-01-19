@@ -3,8 +3,12 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 
 function App() {
-  return <Navbar />;
-  <Hero />;
+  return (
+    <div>
+      <Navbar />
+      <Hero />
+    </div>
+  );
 }
 
 export default App;
